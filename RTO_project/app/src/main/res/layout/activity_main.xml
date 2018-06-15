@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/image2"
+    tools:context="com.example.urg.rto.MainActivity"
+    android:weightSum="1">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/f1"
+        android:name="com.example.urg.rto.FragmentOne"
+        tools:layout="@layout/fragment_one" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Username"
+        android:textSize="26dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txt1_1"
+        />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:hint="Username"
+        android:id="@+id/et1_1"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Password"
+        android:textSize="26dp"
+        android:id="@+id/txt1_2"
+        />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:id="@+id/et1_2"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/b1_1"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="LOGIN"
+        android:textColor="#faf9f8" />
+
+    <TextView
+        android:id="@+id/txt1_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:onClick="ChangeFragment"
+        android:text="Not Registered yet?Register here."
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:textColor="#0819d9" />
+</LinearLayout>

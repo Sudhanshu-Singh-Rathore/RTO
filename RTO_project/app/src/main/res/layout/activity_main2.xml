@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image5"
+    android:orientation="vertical"
+    tools:context="com.example.urg.rto.Main2Activity">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Name"
+        android:id="@+id/txt2_1"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/et2_1"
+        android:layout_below="@+id/txt2_1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/txt2_2"
+        android:textSize="20dp"
+        android:layout_below="@+id/et2_1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/et2_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt2_2"
+        android:layout_marginTop="10dp"
+        android:hint="Email@example.com" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:id="@+id/txt2_3"
+        android:textSize="20dp"
+        android:layout_below="@+id/et2_2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/et2_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt2_3"
+        android:layout_marginTop="10dp"
+        android:hint="Phoone Number"
+        android:inputType="number|phone" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:id="@+id/txt2_4"
+        android:textSize="20dp"
+        android:layout_below="@+id/et2_3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Pasword"
+        android:id="@+id/et2_4"
+        android:inputType="textPassword"
+        android:layout_below="@+id/txt2_4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        android:id="@+id/txt2_5"
+        android:textSize="20dp"
+        android:layout_below="@+id/et2_4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/et2_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2_1"
+        android:text="REGISTER"
+        android:background="@drawable/button"
+        android:textColor="#fcfbfb"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/image5"
+    tools:context="com.example.urg.rto.Main4Activity">
+
+    <Button
+        android:id="@+id/b4_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INSERT"
+        android:textColor="#f9f7f7"
+        android:background="@drawable/button"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="447dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/et4_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Vehicle Number"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/et4_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Vehicle Name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="59dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/et4_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="102dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/et4_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mobile Number"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="145dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/et4_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="City"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="190dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/et4_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="License Number"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="233dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/b4_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIEW"
+        android:textColor="#fdfdfd"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/et8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Vehicle Number"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+</LinearLayout>
